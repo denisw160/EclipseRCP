@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?pde version="3.5"?>
+
+<product name="Contacts" uid="de.netpage_germany.sample.rcp3.contacts" id="de.netpage_germany.sample.rcp3.contacts.product" application="de.netpage_germany.sample.rcp3.contacts.application" version="1.0.0.snapshot" useFeatures="false" includeLaunchers="true">
+
+   <aboutInfo>
+      <image path="/de.netpage_germany.sample.rcp3.contacts/icons/alt_about.gif"/>
+      <text>
+         %product.about
+      </text>
+   </aboutInfo>
+
+   <configIni use="default">
+   </configIni>
+
+   <launcherArgs>
+      <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts</vmArgsMac>
+   </launcherArgs>
+
+   <windowImages i16="/de.netpage_germany.sample.rcp3.contacts/icons/alt_window_16.gif" i32="/de.netpage_germany.sample.rcp3.contacts/icons/alt_window_32.gif"/>
+
+   <launcher name="contacts">
+      <solaris/>
+      <win useIco="true">
+         <ico path="/de.netpage_germany.sample.rcp3.contacts/icons/alt_launcher.ico"/>
+         <bmp/>
+      </win>
+   </launcher>
+
+
+   <vm>
+      <windows include="true">org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7</windows>
+   </vm>
+
+   <plugins>
+      <plugin id="de.netpage_germany.sample.rcp3.contacts"/>
+   </plugins>
+
+
+</product>

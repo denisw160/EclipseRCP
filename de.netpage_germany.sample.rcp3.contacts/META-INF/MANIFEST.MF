@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Contacts
+Bundle-SymbolicName: de.netpage_germany.sample.rcp3.contacts;singleton:=true
+Bundle-Version: 1.0.0.snapshot
+Bundle-Activator: de.netpage_germany.sample.rcp3.contacts.Activator
+Bundle-Vendor: Sample
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.core.databinding,
+ org.eclipse.jface.databinding,
+ org.eclipse.core.databinding.beans,
+ org.eclipse.core.databinding.property,
+ com.ibm.icu
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
